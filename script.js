@@ -32,6 +32,9 @@ for( i in tattoo){
 }
 
 // for of 
-for(tattoos of tattoo){
-    
+for( random of tattoo){
+    console.log('for of loops', random);
+if (random === 'bird'){
+     console.log('it matches', random);
+}
 }
