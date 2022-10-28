@@ -21,6 +21,17 @@ let tattoo = ['bird', 'cat', 'heart', 'horns'];
 for(let i=0; i<tattoo.length; i++ ){
     console.log('for loop', tattoo[i]);
     if(tattoo[i] === 'bird'){
-        console.log('matchhhhh')
+        console.log('matchhhhh');
     }
+}
+
+// for in 
+for( i in tattoo){
+    console.log('for in loop', tattoo[i]);
+
+}
+
+// for of 
+for(tattoos of tattoo){
+    
 }
